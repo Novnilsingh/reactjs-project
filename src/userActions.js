@@ -31,6 +31,7 @@ export function fetchPostsWithRedux() {
     }
 }
 
+
 function fetchPosts() {
     const URL = "http://dummy.restapiexample.com/api/v1/employees";
     return fetch(URL, { method: 'GET'})
